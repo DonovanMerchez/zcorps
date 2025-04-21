@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zcorps - Développement Web Sur Mesure pour Artisans</title>
+  <meta name="description" content="Création de sites web uniques et optimisés SEO pour artisans et petites entreprises. Audit gratuit offert.">
+  <meta property="og:title" content="Zcorps - Développeur Web Full Stack | Création de sites internet sur mesure">
+  <meta property="og:description" content="Prêt à booster votre entreprise en ligne ? Zcorps crée des sites web sur mesure qui génèrent du trafic et augmentent vos conversions.">
+  <meta property="og:image" content="assets/img/logo-social.jpg">
+  <meta property="og:url" content="https://www.zcorps.fr">
+  <meta name="author" content="MERCHEZ Donovan">
+  <meta name="robots" content="index, follow">
+
+  <!-- Preload -->
+  <link rel="preload" href="assets/css/main.css" as="style">
+  <link rel="preload" href="assets/js/main.js" as="script">
+  <link rel="preload" href="assets/fonts/your-font.woff2" as="font" type="font/woff2" crossorigin>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header" class="header">
+    <div class="container">
+      <a href="/" class="logo">
+        <img src="assets/img/logo.svg" alt="Zcorps" width="150" height="40" loading="lazy">
+      </a>
+      
+      <nav id="nav" class="nav">
+        <ul>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Réalisations</a></li>
+          <li><a href="#pricing" class="nav-link">Tarifs</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <button class="mobile-menu-toggle" aria-label="Menu mobile" aria-expanded="false">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Votre site web artisanal fait sur mesure</h1>
+        <p class="hero-subtitle">Pas un template - <span class="highlight">+30% de visibilité</span> garantie</p>
+        <a href="#contact" class="cta-button">Audit gratuit (45 min)</a>
+        
+        <div class="social-links">
+          <a href="https://www.linkedin.com/company/zcorps/" aria-label="LinkedIn" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a>
+          <a href="https://www.instagram.com/zcorps_16/" aria-label="Instagram" target="_blank" rel="noopener"><span class="icon-instagram"></span></a>
+          <a href="https://x.com/Zcorps_16" aria-label="Twitter" target="_blank" rel="noopener"><span class="icon-twitter"></span></a>
+        </div>
+      </div>
+      
+      <div class="hero-image">
+        <img src="assets/img/hero.jpg" alt="Site web sur mesure pour artisans" loading="lazy" width="600" height="400">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title">Notre Mission</h2>
+      <p class="section-subtitle">Transformer vos idées en réalités numériques</p>
+      
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="assets/img/logo.png" alt="Tania ZERMANE, Développeuse full stack" loading="lazy" width="400" height="400">
+        </div>
+        
+        <div class="about-content">
+          <h3>Je suis Tania ZERMANE, Développeuse full stack</h3>
+          <p>Notre mission est de transformer vos idées en réalités numériques percutantes. Spécialistes en développement web et en design UX/UI, nous nous engageons à créer des sites professionnels sur mesure, alliant esthétique soignée, simplicité, et efficacité.</p>
+          
+          <ul class="features-list">
+            <li class="feature-item">
+              <span class="feature-icon">✓</span>
+              <div>
+                <h4>Expertise Technique</h4>
+                <p>Maîtrise des technologies web modernes, des langages backend comme Node.js aux outils frontend comme HTML et CSS.</p>
+              </div>
+            </li>
+            
+            <li class="feature-item">
+              <span class="feature-icon">✓</span>
+              <div>
+                <h4>Gestion Agile</h4>
+                <p>Application des méthodologies agiles pour une livraison rapide et conforme aux besoins.</p>
+              </div>
+            </li>
+            
+            <li class="feature-item">
+              <span class="feature-icon">✓</span>
+              <div>
+                <h4>Optimisation Performance</h4>
+                <p>Optimisation des performances et intégration fluide des applications.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section services">
+    <div class="container">
+      <h2 class="section-title">Nos services premium</h2>
+      <p class="section-subtitle">Des solutions adaptées à votre métier</p>
+      
+      <div class="services-grid">
+        <article class="service-card" data-animate="fade-up">
+          <div class="service-icon">
+            <span class="icon-code"></span>
+          </div>
+          <h3>Gestion de projets web</h3>
+          <p>De la création de sites vitrines à l'e-commerce, nous transformons vos idées en solutions numériques sur mesure.</p>
+          <ul class="service-features">
+            <li>Sites vitrines</li>
+            <li>Applications mobiles</li>
+            <li>Solutions sur mesure</li>
+          </ul>
+          <a href="#" class="service-link">En savoir plus →</a>
+        </article>
+        
+        <article class="service-card featured" data-animate="fade-up" data-delay="100">
+          <div class="popular-badge">Le plus populaire</div>
+          <div class="service-icon">
+            <span class="icon-seo"></span>
+          </div>
+          <h3>Référencement naturel</h3>
+          <p>Renforcez votre SEO grâce à un contenu optimisé et des pages structurées pour un positionnement durable.</p>
+          <ul class="service-features">
+            <li>Optimisation contenu</li>
+            <li>Structure technique</li>
+            <li>Stratégie à long terme</li>
+          </ul>
+          <a href="#" class="service-link">En savoir plus →</a>
+        </article>
+        
+        <article class="service-card" data-animate="fade-up" data-delay="200">
+          <div class="service-icon">
+            <span class="icon-design"></span>
+          </div>
+          <h3>Conception graphique</h3>
+          <p>Créez une identité visuelle forte avec des logos uniques et des designs web modernes.</p>
+          <ul class="service-features">
+            <li>Logos uniques</li>
+            <li>Templates web</li>
+            <li>Identité visuelle</li>
+          </ul>
+          <a href="#" class="service-link">En savoir plus →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section portfolio">
+    <div class="container">
+      <h2 class="section-title">Nos réalisations</h2>
+      <p class="section-subtitle">Des résultats concrets pour nos clients</p>
+      
+      <div class="portfolio-grid">
+        <article class="portfolio-item" data-animate="fade-up">
+          <img src="assets/img/portfolio/LBE.png" alt="Le bureau des Entreprises" loading="lazy" width="600" height="400">
+          <div class="portfolio-info">
+            <h3>Le Bureau des Entreprises</h3>
+            <div class="portfolio-results">
+              <p><strong>+45%</strong> de visites</p>
+              <p><strong>8 demandes</strong>/mois</p>
+            </div>
+            <a href="assets/img/portfolio/LBE.png" class="portfolio-link" data-gallery="portfolio">Voir le projet →</a>
+          </div>
+        </article>
+        
+        <article class="portfolio-item" data-animate="fade-up" data-delay="100">
+          <img src="assets/img/portfolio/ficelle.png" alt="Bouts d'ficelle 66 Officiel" loading="lazy" width="600" height="400">
+          <div class="portfolio-info">
+            <h3>Bouts d'ficelle 66</h3>
+            <div class="portfolio-results">
+              <p><strong>+60%</strong> de trafic</p>
+              <p><strong>15 inscriptions</strong>/semaine</p>
+            </div>
+            <a href="assets/img/portfolio/ficelle.png" class="portfolio-link" data-gallery="portfolio">Voir le projet →</a>
+          </div>
+        </article>
+        
+        <article class="portfolio-item" data-animate="fade-up" data-delay="200">
+          <img src="assets/img/portfolio/masepo.png" alt="MASEPO" loading="lazy" width="600" height="400">
+          <div class="portfolio-info">
+            <h3>MASEPO</h3>
+            <div class="portfolio-results">
+              <p><strong>+50%</strong> de conversions</p>
+              <p><strong>20 contacts</strong>/mois</p>
+            </div>
+            <a href="https://masepo.fr/" target="_blank" rel="noopener" class="portfolio-link">Visiter le site →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="section pricing">
+    <div class="container">
+      <h2 class="section-title">Nos tarifs</h2>
+      <p class="section-subtitle">Des solutions adaptées à chaque budget</p>
+      
+      <div class="pricing-grid">
+        <div class="pricing-card" data-animate="fade-up">
+          <h3>Site One Page</h3>
+          <div class="price">499€<span>*</span></div>
+          <ul class="features-list">
+            <li class="included">Création sur mesure</li>
+            <li class="included">Intégration du contenu</li>
+            <li class="included">SEO de base</li>
+            <li class="excluded">Site Responsive</li>
+            <li class="excluded">Plusieurs pages</li>
+            <li class="excluded">Formation</li>
+          </ul>
+          <a href="#contact" class="cta-button secondary">Demander un devis</a>
+        </div>
+        
+        <div class="pricing-card featured" data-animate="fade-up" data-delay="100">
+          <div class="popular-badge">Le plus choisi</div>
+          <h3>Site Responsive</h3>
+          <div class="price">1200€<span>*</span></div>
+          <ul class="features-list">
+            <li class="included">Création sur mesure</li>
+            <li class="included">SEO Avancé</li>
+            <li class="included">Site Responsive</li>
+            <li class="included">Plusieurs pages</li>
+            <li class="included">Formation</li>
+            <li class="excluded">E-commerce</li>
+          </ul>
+          <a href="#contact" class="cta-button">Demander un devis</a>
+        </div>
+        
+        <div class="pricing-card" data-animate="fade-up" data-delay="200">
+          <h3>Site E-commerce</h3>
+          <div class="price">2000€<span>*</span></div>
+          <ul class="features-list">
+            <li class="included">Création sur mesure</li>
+            <li class="included">SEO Avancé</li>
+            <li class="included">Paiement sécurisé</li>
+            <li class="included">Gestion produits</li>
+            <li class="included">Formation complète</li>
+            <li class="included">Support 6 mois</li>
+          </ul>
+          <a href="#contact" class="cta-button secondary">Demander un devis</a>
+        </div>
+      </div>
+      
+      <p class="pricing-note">*Tarifs indicatifs - Devis personnalisé selon vos besoins</p>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="section testimonials">
+    <div class="container">
+      <h2 class="section-title">Ils nous font confiance</h2>
+      <p class="section-subtitle">Votre satisfaction, notre meilleure interface</p>
+      
+      <div class="testimonials-slider">
+        <div class="testimonial-item">
+          <div class="testimonial-content">
+            <div class="stars">★★★★★</div>
+            <blockquote>
+              <p>"Accueil, réactivité, compétence, professionalisme au top !! Confiez vos projets à Zcorps en toute confiance : vous serez bluffés !"</p>
+              <footer>- Béatrice CHASSIN</footer>
+            </blockquote>
+          </div>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="testimonial-content">
+            <div class="stars">★★★★★</div>
+            <blockquote>
+              <p>"J'ai fait appel à Zcorps pour la création de mon site web, et je suis absolument ravi du résultat ! Leur équipe a créé un site dynamique et épuré, exactement comme je l'imaginais."</p>
+              <footer>- Raymond LOGIE</footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Parlons de votre prochain projet web</h2>
+        <p>Notre équipe est prête à le concrétiser, de la conception à la réalisation.</p>
+        <a href="#contact" class="cta-button">Démarrez votre projet</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">Prêt à démarrer ?</h2>
+      <p class="section-subtitle">Contactez-nous pour un audit gratuit</p>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-item">
+            <span class="info-icon">📍</span>
+            <div>
+              <h3>Adresse</h3>
+              <p>28 Avenue de la Gare<br>66600 Salses-le-Château</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <span class="info-icon">📞</span>
+            <div>
+              <h3>Téléphone</h3>
+              <p><a href="tel:+33652368274">+33 6 52 36 82 74</a></p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <span class="info-icon">✉️</span>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:contact@zcorps.fr">contact@zcorps.fr</a></p>
+            </div>
+          </div>
+        </div>
+        
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" name="name" required>
+            <label for="name">Nom complet</label>
+          </div>
+          
+          <div class="form-group">
+            <input type="email" id="email" name="email" required>
+            <label for="email">Email</label>
+          </div>
+          
+          <div class="form-group">
+            <input type="text" id="subject" name="subject" required>
+            <label for="subject">Sujet</label>
+          </div>
+          
+          <div class="form-group">
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <label for="message">Votre message</label>
+          </div>
+          
+          <div class="form-group">
+            <input type="file" id="file" name="file" accept=".pdf,.doc,.docx,.jpg,.png">
+            <label for="file" class="file-label">Joindre un fichier (optionnel)</label>
+          </div>
+          
+          <button type="submit" class="cta-button">Envoyer le message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cookie Banner -->
+  <div id="cookie-banner" class="cookie-banner">
+    <div class="cookie-content">
+      <p>Nous utilisons des cookies pour améliorer votre expérience sur notre site. En poursuivant votre navigation, vous acceptez notre <a href="politique-cookies.html" target="_blank">politique de cookies</a>.</p>
+      <div class="cookie-buttons">
+        <button id="accept-cookies" class="cookie-btn">Accepter</button>
+        <button id="settings-cookies" class="cookie-btn secondary">Paramétrer</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <img src="assets/img/logo-light.svg" alt="Zcorps" width="150" height="40" loading="lazy">
+          <p>Création de sites web sur mesure pour artisans et petites entreprises</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/company/zcorps/" aria-label="LinkedIn" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a>
+            <a href="https://www.instagram.com/zcorps_16/" aria-label="Instagram" target="_blank" rel="noopener"><span class="icon-instagram"></span></a>
+            <a href="https://x.com/Zcorps_16" aria-label="Twitter" target="_blank" rel="noopener"><span class="icon-twitter"></span></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Réalisations</a></li>
+            <li><a href="#pricing">Tarifs</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Légal</h3>
+          <ul>
+            <li><a href="mentions-legales.html">Mentions légales</a></li>
+            <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+            <li><a href="cgu.html">CGU</a></li>
+            <li><a href="politique-cookies.html">Politique de cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2024</span> Zcorps - Tous droits réservés</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top Button -->
+  <a href="#" id="scroll-top" class="scroll-top" aria-label="Remonter en haut de la page">
+    <span class="arrow-up"></span>
+  </a>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/animations.js"></script>
+  
+  <script>
+    // Gestion des cookies
+    if (!localStorage.getItem("cookies-accepted")) {
+      document.getElementById("cookie-banner").style.display = "block";
+    }
+    
+    document.getElementById("accept-cookies").addEventListener("click", function() {
+      localStorage.setItem("cookies-accepted", "true");
+      document.getElementById("cookie-banner").style.display = "none";
+    });
+    
+    document.getElementById("settings-cookies").addEventListener("click", function() {
+      window.location.href = "politique-cookies.html";
+    });
+    
+    // Année actuelle dans le footer
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
